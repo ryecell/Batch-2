@@ -1,5 +1,7 @@
-y = int(input(" "))
-for i in range(9):
-    x = int(input(" "))
-    y -= x
-print (y)
+for i in range(10):
+    x = "Num: "
+    y = 0
+    if x % 2 == 0:
+        y += 1
+print(y)
+    
